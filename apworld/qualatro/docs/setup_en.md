@@ -1,6 +1,6 @@
 # Qualatro AP Mod
 
-This is a Mod for [Qualatro](https://store.steampowered.com/app/2379780/Qualatro/) that provides Integration for [Archipelago Multi World](https://archipelago.gg)
+This is a Mod for [Balatro](https://store.steampowered.com/app/2379780/Balatro/) that provides Integration for [Archipelago Multi World](https://archipelago.gg) as well as the mod [Qualatro](https://github.com/SiIvaGunner/qualatro/).
 
 # Gameplay
 
@@ -11,7 +11,7 @@ Checks are beating a boss blind at a specific ante with a specific deck at a spe
 There are bonus items, for example permanent bonus hand, permanent bonus starting money and more.
 There are a few traps, for example lose one hand (for the current run), lose all money, make a random joker perishable and more. 
 
-There are a few more options, just check out the yaml that is bundled with the newest [release](https://github.com/BurndiL/QualatroAP/releases).
+There are a few more options, just check out the yaml that is bundled with the newest [release](https://github.com/600billionlazer/QualatroAP/releases).
 
 # Requirements
 
@@ -28,7 +28,7 @@ Your Qualatro Folder should look something like this (highlighted files should b
 
 # Installation
 
-To install this mod create a new folder in `%AppData%/Roaming/Qualatro/Mods/` called `QualatroAP` and put the files from this repository in there. You can get those from `QualatroAP.zip` in the latest release. 
+To install this mod create a new folder in `%AppData%/Roaming/Balatro/Mods/` called `QualatroAP` and put the files from this repository in there. You can get those from `QualatroAP.zip` in the latest release. 
 
 Your Mods folder should look something like this: 
 
@@ -38,8 +38,10 @@ And the inside of the QualatroAP folder should look something like this:
 
 ![Your AppData Folder should look something like this](https://i.imgur.com/3JzrdlV.png).
 
+Additionally, you should also have the latest version of Qualatro installed alongside this mod, linked [here](https://github.com/SiIvaGunner/qualatro/releases/).
 
-You should be good to go then! You can start the game normally over Steam and it should load the mod. If there are any issues, consider going to the [Archipelago After Dark Discord](https://discord.com/invite/fqvNCCRsu4) server, there is a Qualatro thread somewhere. Or message me on Discord @Burndi. 
+
+You should be good to go then! You can start the game normally over Steam and it should load the mod. If there are any issues message me on Discord @pixelsword_. I should be in most of the Archipelago related Discord servers, anyway. 
 
 # Connecting
 

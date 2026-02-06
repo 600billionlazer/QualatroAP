@@ -2,9 +2,9 @@
 
 ## What is this game?
 
-Qualatro is a poker-themed roguelike deck-building video game developed by LocalThunk.
+Qualatro is a mod to Balatro, a poker-themed roguelike deck-building video game developed by LocalThunk.
 In the game, players play poker hands to score points and defeat "blinds", while improving their deck and purchasing joker cards with a variety of effects. 
-Source: https://en.wikipedia.org/wiki/Qualatro_(video_game)
+Source: https://en.wikipedia.org/wiki/Balatro_(video_game)
 
 ## Where is the options page?
 
