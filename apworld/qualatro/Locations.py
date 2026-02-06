@@ -2,7 +2,7 @@ from .QualatroDecks import deck_id_to_name
 from .Items import number_to_stake
 from BaseClasses import Location
 
-max_shop_items = 250
+max_shop_items = 150
 max_consumable_items = 300
 
 # ask what the fuck to put here lol

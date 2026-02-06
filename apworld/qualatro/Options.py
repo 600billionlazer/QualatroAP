@@ -59,7 +59,7 @@ class JokerGoal(Range):
     If your goal isn't 'unlock jokers' or 'Win with jokers on stake', this setting can be ignored. """
     display_name = "Required jokers to win"
     range_start = 1
-    range_end = 150
+    range_end = 250
     default = 75
 
 

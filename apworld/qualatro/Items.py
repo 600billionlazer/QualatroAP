@@ -438,7 +438,7 @@ item_table: Dict[str, ItemData] = {
     "SmokeXplainer 420": ItemData(offset + 585),
     "Dr. Andonuts": ItemData(offset + 586),
 
-    # Four distinct Donuts (intentional duplicates)
+    # Donuts
     "Donut I": ItemData(offset + 587),
     "Donut II": ItemData(offset + 588),
     "Donut III": ItemData(offset + 589),
