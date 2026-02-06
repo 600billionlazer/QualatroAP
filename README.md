@@ -26,8 +26,8 @@ After installing those, you will also have to download `lua51.7z` from [lua apcl
 
 From the `lua51.7z` extract the file `lua51-clang64-dynamic > lua-apclientpp.dll` and put it into your Qualatro installation folder (the same folder you put the lovely `version.dll`). 
 
-Your Qualatro Folder should look something like this (highlighted files should be there):
-![Your Qualatro Folder should look something like this (highlighted files should be there)](https://i.imgur.com/Pe5uTX4.png).
+Your Balatro Folder should look something like this (highlighted files should be there):
+![Your Balatro Folder should look something like this (highlighted files should be there)](https://i.imgur.com/Pe5uTX4.png).
 
 # Installation
 
