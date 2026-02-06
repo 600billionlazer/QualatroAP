@@ -381,8 +381,6 @@ G.APItems = {
     [G.AP.id_offset + 585] = "smoke_explainer",
     [G.AP.id_offset + 586] = "dr_andonuts",
 
-    -- You said 4 Donuts in AP, but Qualatro has donut1..donut8.
-    -- If your AP list truly only includes 4 Donuts, map the first four:
     [G.AP.id_offset + 587] = "donut1",
     [G.AP.id_offset + 588] = "donut2",
     [G.AP.id_offset + 589] = "donut3",
