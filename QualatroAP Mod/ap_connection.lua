@@ -399,10 +399,6 @@ G.APItems = {
     [G.AP.id_offset + 597] = "kazoo",
     [G.AP.id_offset + 598] = "circus",
     [G.AP.id_offset + 599] = "get_lucky",
-    -- "Joker but bonus cards are retriggered" is not in your _jokers list.
-    -- If Qualatro has a real suffix for it, tell me; otherwise this won't unlock.
-    -- [G.AP.id_offset + 600] = "<missing_suffix>",
-
     [G.AP.id_offset + 601] = "dancing_mad",
     [G.AP.id_offset + 602] = "boykisser",
     [G.AP.id_offset + 603] = "pomni",
@@ -414,12 +410,9 @@ G.APItems = {
     [G.AP.id_offset + 609] = "cryptid_hunt",
     [G.AP.id_offset + 610] = "kingly_mask",
     [G.AP.id_offset + 611] = "together_now",
-
-    -- These three correspond to the “jazz cats” entries
     [G.AP.id_offset + 612] = "jazz_cats_shades",
     [G.AP.id_offset + 613] = "jazz_cats_tom",
     [G.AP.id_offset + 614] = "jazz_cats_sphelonious",
-
     [G.AP.id_offset + 615] = "nobodys_hero",
     [G.AP.id_offset + 616] = "etika_reveal",       -- JOKER REVEAL!!!
     [G.AP.id_offset + 617] = "limited_liability_partnership",
