@@ -1,5 +1,5 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Archipelago Randomizer
+--- MOD_NAME: Qualatro Archipelago Randomizer
 --- MOD_ID: Rando
 --- MOD_AUTHOR: [Burndi, SpaD_Overolls, Myst, Silvris]
 --- MOD_DESCRIPTION: Archipelago Client for Qualatro
