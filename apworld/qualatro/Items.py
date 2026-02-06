@@ -400,7 +400,7 @@ item_table: Dict[str, ItemData] = {
     "Joker Bundle 29": ItemData(offset + 549),
     "Joker Bundle 30": ItemData(offset + 550),
 
-    # --- Modded / Extra Jokers ---
+    # --- Qualatro Jokers
     "SiIvaGunner": ItemData(offset + 551),
     "SiIvaGunner AI": ItemData(offset + 552),
     "Susie": ItemData(offset + 553),

@@ -1,8 +1,8 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Archipelago Randomizer
+--- MOD_NAME: Qualatro Archipelago Randomizer
 --- MOD_ID: Rando
 --- MOD_AUTHOR: [Burndi, SpaD_Overolls, Myst, Silvris]
---- MOD_DESCRIPTION: Archipelago Client for Balatro
+--- MOD_DESCRIPTION: Archipelago Client for Qualatro
 --- PRIORITY: 8000
 --- PREFIX: rand
 --- BADGE_COLOR: 4E8BE6
@@ -321,8 +321,8 @@ end
 function sendDeathLinkBounce(cause, source)
 
     G.AP.log("sendDeathLinkBounce started")
-    cause = cause or "Balatro"
-    source = source or G.AP.APSlot or "BalatroPlayer"
+    cause = cause or "Qualatro"
+    source = source or G.AP.APSlot or "QualatroPlayer"
     local time = G.APClient:get_server_time()
     G.AP.LAST_DEATH_LINK_TIME = time
     G.AP.log("AP:sendDeathLinkBounce " .. tostring(time) .. " " .. cause .. " " .. source)
@@ -1928,7 +1928,7 @@ G.AP.ap_item_loc_vars = function(self, info_queue, card)
 			local _info_queue = {}
 			local _skip_name = nil
 			
-			if G.AP.location_id_to_item_name[card.ability.extra.id].game == 'Balatro' then
+			if G.AP.location_id_to_item_name[card.ability.extra.id].game == 'Qualatro' then
 				_item_name, _desc, _info_queue = G.AP.localize_name(G.AP.location_id_to_item_name[card.ability.extra.id].item_id,
 				G.AP.location_id_to_item_name[card.ability.extra.id].player_name == G.AP.APSlot)
 				_skip_name = true

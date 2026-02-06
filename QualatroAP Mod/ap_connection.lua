@@ -344,107 +344,108 @@ G.APItems = {
 	[G.AP.id_offset + 388] = "bundle_spectral",
 	
 	-- qualatro cards
-    [G.AP.id_offset + 551] = "siivagunner",
-    [G.AP.id_offset + 552] = "siiva_ai",
-    [G.AP.id_offset + 553] = "susie",
-    [G.AP.id_offset + 554] = "grand_dad",
-    [G.AP.id_offset + 555] = "dimensional_cape",
-    [G.AP.id_offset + 556] = "haruka",
-    [G.AP.id_offset + 557] = "genocide_chad",
-    [G.AP.id_offset + 558] = "reader",
-    [G.AP.id_offset + 559] = "jerome",
-    [G.AP.id_offset + 560] = "beader_and_berome",
-    [G.AP.id_offset + 561] = "jokex",              -- JokeXplainer 7000
-    [G.AP.id_offset + 562] = "twob",               -- 2B
-    [G.AP.id_offset + 563] = "inspector_gadget",
-    [G.AP.id_offset + 564] = "ogg",
-    [G.AP.id_offset + 565] = "familiar_photo",
-    [G.AP.id_offset + 566] = "coconut_gun",
-    [G.AP.id_offset + 567] = "slip_n_slide",
-    [G.AP.id_offset + 568] = "christmas_spirit",
-    [G.AP.id_offset + 569] = "fools_spirit",
-    [G.AP.id_offset + 570] = "golden_necklace",
-    [G.AP.id_offset + 571] = "cat_mask",
-    [G.AP.id_offset + 572] = "spectrogram",
-    [G.AP.id_offset + 573] = "galaxia",
-    [G.AP.id_offset + 574] = "dian_shi_ma_li",
-    [G.AP.id_offset + 575] = "reverb",             -- Reverberation
-    [G.AP.id_offset + 576] = "caramelldansen",
-    [G.AP.id_offset + 577] = "katamari_on_the_rocks",
-    [G.AP.id_offset + 578] = "eight_bit_beast",
-    [G.AP.id_offset + 579] = "bites_the_dust",
-    [G.AP.id_offset + 580] = "final_goodbye",
-    [G.AP.id_offset + 581] = "mm2wood",
-    [G.AP.id_offset + 582] = "jokex_lost_media",
-    [G.AP.id_offset + 583] = "jokex_replica",
-    [G.AP.id_offset + 584] = "color_war",
-    [G.AP.id_offset + 585] = "smoke_explainer",
-    [G.AP.id_offset + 586] = "dr_andonuts",
+	[G.AP.id_offset + 551] = "j_qualatro_siivagunner",
+	[G.AP.id_offset + 552] = "j_qualatro_siiva_ai",
+	[G.AP.id_offset + 553] = "j_qualatro_susie",
+	[G.AP.id_offset + 554] = "j_qualatro_grand_dad",
+	[G.AP.id_offset + 555] = "j_qualatro_dimensional_cape",
+	[G.AP.id_offset + 556] = "j_qualatro_haruka",
+	[G.AP.id_offset + 557] = "j_qualatro_genocide_chad",
+	[G.AP.id_offset + 558] = "j_qualatro_reader",
+	[G.AP.id_offset + 559] = "j_qualatro_jerome",
+	[G.AP.id_offset + 560] = "j_qualatro_beader_and_berome",
+	[G.AP.id_offset + 561] = "j_qualatro_jokex",              
+	[G.AP.id_offset + 562] = "j_qualatro_twob",
+	[G.AP.id_offset + 563] = "j_qualatro_inspector_gadget",
+	[G.AP.id_offset + 564] = "j_qualatro_ogg",
+	[G.AP.id_offset + 565] = "j_qualatro_familiar_photo",
+	[G.AP.id_offset + 566] = "j_qualatro_coconut_gun",
+	[G.AP.id_offset + 567] = "j_qualatro_slip_n_slide",
+	[G.AP.id_offset + 568] = "j_qualatro_christmas_spirit",
+	[G.AP.id_offset + 569] = "j_qualatro_fools_spirit",
+	[G.AP.id_offset + 570] = "j_qualatro_golden_necklace",
+	[G.AP.id_offset + 571] = "j_qualatro_cat_mask",
+	[G.AP.id_offset + 572] = "j_qualatro_spectrogram",
+	[G.AP.id_offset + 573] = "j_qualatro_galaxia",
+	[G.AP.id_offset + 574] = "j_qualatro_dian_shi_ma_li",
+	[G.AP.id_offset + 575] = "j_qualatro_reverb",
+	[G.AP.id_offset + 576] = "j_qualatro_caramelldansen",
+	[G.AP.id_offset + 577] = "j_qualatro_katamari_on_the_rocks",
+	[G.AP.id_offset + 578] = "j_qualatro_eight_bit_beast",
+	[G.AP.id_offset + 579] = "j_qualatro_bites_the_dust",
+	[G.AP.id_offset + 580] = "j_qualatro_final_goodbye",
+	[G.AP.id_offset + 581] = "j_qualatro_mm2wood",
+	[G.AP.id_offset + 582] = "j_qualatro_jokex_lost_media",
+	[G.AP.id_offset + 583] = "j_qualatro_jokex_replica",
+	[G.AP.id_offset + 584] = "j_qualatro_color_war",
+	[G.AP.id_offset + 585] = "j_qualatro_smoke_explainer",
+	[G.AP.id_offset + 586] = "j_qualatro_dr_andonuts",
 
-    [G.AP.id_offset + 587] = "donut1",
-    [G.AP.id_offset + 588] = "donut2",
-    [G.AP.id_offset + 589] = "donut3",
-    [G.AP.id_offset + 590] = "donut4",
-	[G.AP.id_offset + 647] = "donut5",
-    [G.AP.id_offset + 648] = "donut6",
-    [G.AP.id_offset + 649] = "donut7",
-    [G.AP.id_offset + 650] = "donut8",
+	[G.AP.id_offset + 587] = "j_qualatro_donut1",
+	[G.AP.id_offset + 588] = "j_qualatro_donut2",
+	[G.AP.id_offset + 589] = "j_qualatro_donut3",
+	[G.AP.id_offset + 590] = "j_qualatro_donut4",
+	[G.AP.id_offset + 647] = "j_qualatro_donut5",
+	[G.AP.id_offset + 648] = "j_qualatro_donut6",
+	[G.AP.id_offset + 649] = "j_qualatro_donut7",
+	[G.AP.id_offset + 650] = "j_qualatro_donut8",
 
-    [G.AP.id_offset + 591] = "haltmann",
-    [G.AP.id_offset + 592] = "beta_mix",
-    [G.AP.id_offset + 593] = "antonymph",
-    [G.AP.id_offset + 594] = "onetwo_jump",        -- 1, 2, Joker!
-    [G.AP.id_offset + 595] = "joper",
-    [G.AP.id_offset + 596] = "interior_joker",
-    [G.AP.id_offset + 597] = "kazoo",
-    [G.AP.id_offset + 598] = "circus",
-    [G.AP.id_offset + 599] = "get_lucky",
-    [G.AP.id_offset + 601] = "dancing_mad",
-    [G.AP.id_offset + 602] = "boykisser",
-    [G.AP.id_offset + 603] = "pomni",
-    [G.AP.id_offset + 604] = "gegagedigedagedago",
-    [G.AP.id_offset + 605] = "ride_the_raft",
-    [G.AP.id_offset + 606] = "crazy_bus",
-    [G.AP.id_offset + 607] = "hypercam",
-    [G.AP.id_offset + 608] = "papyrus",
-    [G.AP.id_offset + 609] = "cryptid_hunt",
-    [G.AP.id_offset + 610] = "kingly_mask",
-    [G.AP.id_offset + 611] = "together_now",
-    [G.AP.id_offset + 612] = "jazz_cats_shades",
-    [G.AP.id_offset + 613] = "jazz_cats_tom",
-    [G.AP.id_offset + 614] = "jazz_cats_sphelonious",
-    [G.AP.id_offset + 615] = "nobodys_hero",
-    [G.AP.id_offset + 616] = "etika_reveal",       -- JOKER REVEAL!!!
-    [G.AP.id_offset + 617] = "limited_liability_partnership",
-    [G.AP.id_offset + 618] = "ajit_pai",
-    [G.AP.id_offset + 619] = "nico_nico",
-    [G.AP.id_offset + 620] = "djpk",
-    [G.AP.id_offset + 621] = "king_for_eternity",
-    [G.AP.id_offset + 622] = "polar_star",
-    [G.AP.id_offset + 623] = "nintendo_power",
-    [G.AP.id_offset + 624] = "slider",
-    [G.AP.id_offset + 625] = "planet_b_ball",
-    [G.AP.id_offset + 626] = "wii_shop_channel",
-    [G.AP.id_offset + 627] = "tax_fraud",
-    [G.AP.id_offset + 628] = "smashup",
-    [G.AP.id_offset + 629] = "christmas_in_july",
-    [G.AP.id_offset + 630] = "word_whammer",       -- LeapFrog set
-    [G.AP.id_offset + 631] = "pizza_roll",
-    [G.AP.id_offset + 632] = "hot_cross_buns",
-    [G.AP.id_offset + 633] = "takeover_doover",
-    [G.AP.id_offset + 634] = "poke_party",
-    [G.AP.id_offset + 635] = "othello_world",
-    [G.AP.id_offset + 636] = "gadget_room",
-    [G.AP.id_offset + 637] = "the_bean",
-    [G.AP.id_offset + 638] = "lady",
-    [G.AP.id_offset + 639] = "stingy",
-    [G.AP.id_offset + 640] = "brainless",
-    [G.AP.id_offset + 641] = "evil_brainless",
-    [G.AP.id_offset + 642] = "cartoon_gunner",
-    [G.AP.id_offset + 643] = "siiva_swim",
-    [G.AP.id_offset + 644] = "nozomi",
-    [G.AP.id_offset + 645] = "joker_inside_your_head",
-    [G.AP.id_offset + 646] = "missingno",
+	[G.AP.id_offset + 591] = "j_qualatro_haltmann",
+	[G.AP.id_offset + 592] = "j_qualatro_beta_mix",
+	[G.AP.id_offset + 593] = "j_qualatro_antonymph",
+	[G.AP.id_offset + 594] = "j_qualatro_onetwo_jump",
+	[G.AP.id_offset + 595] = "j_qualatro_joper",
+	[G.AP.id_offset + 596] = "j_qualatro_interior_joker",
+	[G.AP.id_offset + 597] = "j_qualatro_kazoo",
+	[G.AP.id_offset + 598] = "j_qualatro_circus",
+	[G.AP.id_offset + 599] = "j_qualatro_get_lucky",
+	[G.AP.id_offset + 600] = "j_qualatro_weezer",
+	[G.AP.id_offset + 601] = "j_qualatro_dancing_mad",
+	[G.AP.id_offset + 602] = "j_qualatro_boykisser",
+	[G.AP.id_offset + 603] = "j_qualatro_pomni",
+	[G.AP.id_offset + 604] = "j_qualatro_gegagedigedagedago",
+	[G.AP.id_offset + 605] = "j_qualatro_ride_the_raft",
+	[G.AP.id_offset + 606] = "j_qualatro_crazy_bus",
+	[G.AP.id_offset + 607] = "j_qualatro_hypercam",
+	[G.AP.id_offset + 608] = "j_qualatro_papyrus",
+	[G.AP.id_offset + 609] = "j_qualatro_cryptid_hunt",
+	[G.AP.id_offset + 610] = "j_qualatro_kingly_mask",
+	[G.AP.id_offset + 611] = "j_qualatro_together_now",
+	[G.AP.id_offset + 612] = "j_qualatro_jazz_cats_shades",
+	[G.AP.id_offset + 613] = "j_qualatro_jazz_cats_tom",
+	[G.AP.id_offset + 614] = "j_qualatro_jazz_cats_sphelonious",
+	[G.AP.id_offset + 615] = "j_qualatro_nobodys_hero",
+	[G.AP.id_offset + 616] = "j_qualatro_etika_reveal",
+	[G.AP.id_offset + 617] = "j_qualatro_limited_liability_partnership",
+	[G.AP.id_offset + 618] = "j_qualatro_ajit_pai",
+	[G.AP.id_offset + 619] = "j_qualatro_nico_nico",
+	[G.AP.id_offset + 620] = "j_qualatro_djpk",
+	[G.AP.id_offset + 621] = "j_qualatro_king_for_eternity",
+	[G.AP.id_offset + 622] = "j_qualatro_polar_star",
+	[G.AP.id_offset + 623] = "j_qualatro_nintendo_power",
+	[G.AP.id_offset + 624] = "j_qualatro_slider",
+	[G.AP.id_offset + 625] = "j_qualatro_planet_b_ball",
+	[G.AP.id_offset + 626] = "j_qualatro_wii_shop_channel",
+	[G.AP.id_offset + 627] = "j_qualatro_tax_fraud",
+	[G.AP.id_offset + 628] = "j_qualatro_smashup",
+	[G.AP.id_offset + 629] = "j_qualatro_christmas_in_july",
+	[G.AP.id_offset + 630] = "j_qualatro_word_whammer",
+	[G.AP.id_offset + 631] = "j_qualatro_pizza_roll",
+	[G.AP.id_offset + 632] = "j_qualatro_hot_cross_buns",
+	[G.AP.id_offset + 633] = "j_qualatro_takeover_doover",
+	[G.AP.id_offset + 634] = "j_qualatro_poke_party",
+	[G.AP.id_offset + 635] = "j_qualatro_othello_world",
+	[G.AP.id_offset + 636] = "j_qualatro_gadget_room",
+	[G.AP.id_offset + 637] = "j_qualatro_the_bean",
+	[G.AP.id_offset + 638] = "j_qualatro_lady",
+	[G.AP.id_offset + 639] = "j_qualatro_stingy",
+	[G.AP.id_offset + 640] = "j_qualatro_brainless",
+	[G.AP.id_offset + 641] = "j_qualatro_evil_brainless",
+	[G.AP.id_offset + 642] = "j_qualatro_cartoon_gunner",
+	[G.AP.id_offset + 643] = "j_qualatro_siiva_swim",
+	[G.AP.id_offset + 644] = "j_qualatro_nozomi",
+	[G.AP.id_offset + 645] = "j_qualatro_joker_inside_your_head",
+	[G.AP.id_offset + 646] = "j_qualatro_missingno",
 }
 
 -- joker bundle
@@ -492,7 +493,31 @@ function IsVanillaItem(key)
         'j_matador', 'j_hit_the_road', 'j_duo', 'j_trio', 'j_family', 'j_order', 'j_tribe', -- page 10
         'j_stuntman', 'j_invisible', 'j_brainstorm', 'j_satellite', 'j_shoot_the_moon', 'j_drivers_license',
         'j_cartomancer', 'j_astronomer', 'j_burnt', 'j_bootstraps', 'j_caino', 'j_triboulet', 'j_yorick', 'j_chicot',
-        'j_perkeo', 'j_rand_fallback'}
+        'j_perkeo', 'j_rand_fallback',
+		
+		-- qualatro
+		'j_qualatro_jokex', 'j_qualatro_jokex_lost_media', 'j_qualatro_susie', 'j_qualatro_grand_dad', 'j_qualatro_smashup',
+		'j_qualatro_jokex_replica', 'j_qualatro_coconut_gun', 'j_qualatro_slip_n_slide', 'j_qualatro_familiar_photo', 'j_qualatro_reader',
+    	'j_qualatro_jerome', 'j_qualatro_beader_and_berome', 'j_qualatro_fools_spirit', 'j_qualatro_christmas_spirit',
+    	'j_qualatro_siivagunner', 'j_qualatro_inspector_gadget', 'j_qualatro_ogg', 'j_qualatro_haruka', 'j_qualatro_twob',
+    	'j_qualatro_golden_necklace', 'j_qualatro_dimensional_cape', 'j_qualatro_siiva_ai', 'j_qualatro_genocide_chad',
+    	'j_qualatro_spectrogram', 'j_qualatro_cat_mask', 'j_qualatro_word_whammer', 'j_qualatro_final_goodbye', 'j_qualatro_hypercam',
+    	'j_qualatro_eight_bit_beast', 'j_qualatro_hot_cross_buns', 'j_qualatro_galaxia', 'j_qualatro_dr_andonuts',
+    	'j_qualatro_dian_shi_ma_li', 'j_qualatro_king_for_eternity', 'j_qualatro_lady', 'j_qualatro_slider', 'j_qualatro_ride_the_raft',
+    	'j_qualatro_circus', 'j_qualatro_beta_mix', 'j_qualatro_papyrus', 'j_qualatro_cryptid_hunt', 'j_qualatro_stingy', 'j_qualatro_get_lucky',
+    	'j_qualatro_antonymph', 'j_qualatro_haltmann', 'j_qualatro_othello_world', 'j_qualatro_boykisser', 'j_qualatro_pomni',
+    	'j_qualatro_gegagedigedagedago', 'j_qualatro_gadget_room', 'j_qualatro_nico_nico', 'j_qualatro_reverb', 'j_qualatro_polar_star',
+    	'j_qualatro_brainless', 'j_qualatro_evil_brainless', 'j_qualatro_onetwo_jump', 'j_qualatro_crazy_bus', 'j_qualatro_tax_fraud',
+    	'j_qualatro_jazz_cats_shades', 'j_qualatro_jazz_cats_tom', 'j_qualatro_jazz_cats_sphelonious',
+    	'j_qualatro_wii_shop_channel', 'j_qualatro_cartoon_gunner', 'j_qualatro_siiva_swim', 'j_qualatro_missingno',
+    	'j_qualatro_poke_party', 'j_qualatro_joker_inside_your_head', 'j_qualatro_interior_joker', 'j_qualatro_kazoo',
+    	'j_qualatro_katamari_on_the_rocks', 'j_qualatro_planet_b_ball', 'j_qualatro_color_war', 'j_qualatro_dancing_mad',
+    	'j_qualatro_pizza_roll', 'j_qualatro_takeover_doover', 'j_qualatro_mm2wood', 'j_qualatro_the_bean',
+    	'j_qualatro_christmas_in_july', 'j_qualatro_joper', 'j_qualatro_nobodys_hero', 'j_qualatro_together_now',
+    	'j_qualatro_smoke_explainer', 'j_qualatro_caramelldansen', 'j_qualatro_limited_liability_partnership',
+    	'j_qualatro_ajit_pai', 'j_qualatro_nozomi', 'j_qualatro_bites_the_dust', 'j_qualatro_etika_reveal', 'j_qualatro_kingly_mask',
+    	'j_qualatro_nintendo_power', 'j_qualatro_donut1', 'j_qualatro_donut2', 'j_qualatro_donut3', 'j_qualatro_donut4', 'j_qualatro_donut5',
+    	'j_qualatro_donut6', 'j_qualatro_donut7', 'j_qualatro_donut8', 'j_qualatro_djpk', 'j_qualatro_weezer'}
 
         if tableContains(j_whitelist, key) then
             return true
@@ -500,6 +525,8 @@ function IsVanillaItem(key)
             return nil
         end
     end
+	
+
 
     -- Consumables
     if string.find(key, '^c_') then
@@ -748,7 +775,7 @@ function APConnect()
                         G.AP.BackQueue[item_key] = item.index
                     end
 
-                elseif item_id >= 16 and item_id <= 165 then
+                elseif (item_id >= 16 and item_id <= 165) or (item_id >=551 and item_id <=650) then
                     G.AP.log("received Joker")
                     if G.AP.GameObjectInit then
                         G.PROFILES[G.AP.profile_Id]["received_indeces"][item.index] = true
@@ -1627,7 +1654,7 @@ function APConnect()
         -- since lua tables won't contain nil values, we can use keys array
         for _, key in ipairs(keys) do
 			
-			if key == "balatro_deck_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) and type(map[key]) == 'table' then 
+			if key == "qualatro_deck_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) and type(map[key]) == 'table' then 
 				G.E_MANAGER:add_event(
 					Event { blocking = false, blockable = false, force_pause = true,
 						func = function()
@@ -1644,7 +1671,7 @@ function APConnect()
 					})
 			end
 			
-			if key == "balatro_joker_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) and type(map[key]) == 'table' then 
+			if key == "qualatro_joker_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) and type(map[key]) == 'table' then 
 				G.E_MANAGER:add_event(
 					Event { blocking = false, blockable = false, force_pause = true,
 						func = function()
@@ -1661,7 +1688,7 @@ function APConnect()
 			end 
 			
 			if isAPProfileLoaded() then
-				if key == "balatro_current_run"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) and map[key] and map[key] ~= "" then 
+				if key == "qualatro_current_run"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) and map[key] and map[key] ~= "" then 
 					local decompressed_save = STR_UNPACK(map[key])
 					G.SAVED_GAME = decompressed_save
 				end
@@ -1683,7 +1710,7 @@ function APConnect()
 
     function on_set_reply(message)
         G.AP.log("Set Reply:"..message.key)
-		if message.key == "balatro_joker_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) then
+		if message.key == "qualatro_joker_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) then
 			G.E_MANAGER:add_event(
 			Event { blocking = false, blockable = false, force_pause = true,
 				func = function()
@@ -1698,7 +1725,7 @@ function APConnect()
 			})
 		end
 		
-		if message.key == "balatro_deck_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) then
+		if message.key == "qualatro_deck_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id) then
 			G.E_MANAGER:add_event(
 			Event { blocking = false, blockable = false, force_pause = true,
 				func = function()
@@ -1722,7 +1749,7 @@ function APConnect()
         -- end
     end
     local uuid = ""
-    G.APClient = AP(uuid, "Balatro", server);
+    G.APClient = AP(uuid, "Qualatro", server);
 
     G.APClient:set_socket_connected_handler(on_socket_connected)
     G.APClient:set_socket_error_handler(on_socket_error)
@@ -1761,7 +1788,7 @@ function G.AP.make_hint_step(i, hint)
 				-- local items
 				if G.AP.hints[i].finding_player == G.AP.player_id then
 					G.AP.hint_locations[G.AP.hints[i].location] = 
-						G.APClient:get_location_name(G.AP.hints[i].location, 'Balatro')
+						G.APClient:get_location_name(G.AP.hints[i].location, 'Qualatro')
 					
 					G.E_MANAGER:add_event(
 						Event {
@@ -1821,7 +1848,7 @@ function G.AP.make_hint_step(i, hint)
 	
 	if hint then
 		if not hint.found and not G.AP.hint_locations[hint.location] then
-			G.AP.hint_locations[hint.location] = G.APClient:get_location_name(hint.location, 'Balatro')
+			G.AP.hint_locations[hint.location] = G.APClient:get_location_name(hint.location, 'Qualatro')
 			
 			G.E_MANAGER:add_event(
 				Event {
@@ -1953,25 +1980,25 @@ end
 
 G.AP.server_save_decks = function()
 	if G.PROFILES[G.SETTINGS.profile].deck_usage then
-		G.APClient:Set("balatro_deck_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id), {}, false, {{'replace', G.PROFILES[G.SETTINGS.profile].deck_usage}})
+		G.APClient:Set("qualatro_deck_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id), {}, false, {{'replace', G.PROFILES[G.SETTINGS.profile].deck_usage}})
 	end
 end
 
 G.AP.server_save_jokers = function()
 	if G.PROFILES[G.SETTINGS.profile].joker_usage then
-		G.APClient:Set("balatro_joker_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id), {}, false, {{'replace', G.PROFILES[G.SETTINGS.profile].joker_usage}})
+		G.APClient:Set("qualatro_joker_wins"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id), {}, false, {{'replace', G.PROFILES[G.SETTINGS.profile].joker_usage}})
 	end
 end
 
 G.AP.server_save_run = function(data)
 	local compressed_save = data and STR_PACK(data) or ""
-	G.APClient:Set("balatro_current_run"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id), {}, false, {{'replace', compressed_save}})
+	G.APClient:Set("qualatro_current_run"..tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id), {}, false, {{'replace', compressed_save}})
 end
 
 G.AP.server_load = function()
 	local PID = tostring(G.AP.player_id)..'_'..tostring(G.AP.team_id)
-	G.APClient:Get({"balatro_deck_wins"..PID, "balatro_joker_wins"..PID, "balatro_current_run"..PID})
-	G.APClient:SetNotify({"balatro_deck_wins"..PID, "balatro_joker_wins"..PID})
+	G.APClient:Get({"qualatro_deck_wins"..PID, "qualatro_joker_wins"..PID, "qualatro_current_run"..PID})
+	G.APClient:SetNotify({"qualatro_deck_wins"..PID, "qualatro_joker_wins"..PID})
 end
 
 

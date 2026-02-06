@@ -946,11 +946,45 @@ local create_UIBox_notify_alertRef = create_UIBox_notify_alert
 function create_UIBox_notify_alert(_achievement, _type)
     if isAPProfileLoaded() then
 
+        local function get_joker_visuals_for_achievement(ach)
+            -- default
+            local out = {
+                atlas = G.ASSET_ATLAS["Joker"],
+                shader = nil
+            }
+        
+            if type(ach) ~= "string" then return out end
+        
+            if ach == "j_qualatro_missingno" or ach == "j_qualatro_MissingNo" or string.find(string.lower(ach), "missingno") then
+                if G.ASSET_ATLAS["qualatro_M"] then
+                    out.atlas = G.ASSET_ATLAS["qualatro_M"]
+                end
+                out.shader = "qualatro_gltiched"
+                return out
+            end
+
+            if string.find(ach, "^j_qualatro_") and G.ASSET_ATLAS["qualatro_QualatroJokers"] then
+                out.atlas = G.ASSET_ATLAS["qualatro_QualatroJokers"]
+                return out
+            end
+
+            return out
+        end
+
+
         local _c, _atlas = G.P_CENTERS[_achievement],
             _type == 'Stake' and G.ASSET_ATLAS["chips"] or tableContains({"Joker", "Voucher", "Booster"}, _type) and
                 G.ASSET_ATLAS[_type] or tableContains({"Tarot", "Planet", "Spectral"}, _type) and G.ASSET_ATLAS["Tarot"] or
                 tableContains({"Back", "BackStake"}, _type) and G.ASSET_ATLAS["centers"] or _type == "location" and
                 G.ASSET_ATLAS["rand_ap_logo"] or G.ASSET_ATLAS["icons"]
+
+		local _joker_visuals = nil
+		if _type == "Joker" then
+		    _joker_visuals = get_joker_visuals_for_achievement(_achievement)
+		    _atlas = _joker_visuals.atlas
+		else
+    		_atlas = G.ASSET_ATLAS["Joker"]
+		end
 
         if tableContains({'c_rand_ap_tarot','c_rand_ap_planet','c_rand_ap_spectral'}, _achievement) then
             _atlas = G.ASSET_ATLAS['rand_ap_item_tarot']
@@ -1183,8 +1217,11 @@ function create_UIBox_notify_alert(_achievement, _type)
 
         -- second layer for the soul, the hologramm and the legendaries
         if (_c and _c.soul_pos) or _achievement == 'c_soul' then
-            local _soul_atlas = _achievement == 'c_soul' and G.ASSET_ATLAS["centers"] or _type == 'Joker' and
-                                    G.ASSET_ATLAS["Joker"] or G.ASSET_ATLAS["stickers"]
+            local _soul_atlas = _achievement == 'c_soul' and G.ASSET_ATLAS["centers"]
+                or (_type == 'Joker' and get_joker_visuals_for_achievement(_achievement).atlas)
+                or G.ASSET_ATLAS["stickers"]
+
+
             local _soul_pos = _achievement == 'c_soul' and {
                 x = 0,
                 y = 1
