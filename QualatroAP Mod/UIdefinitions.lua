@@ -954,7 +954,8 @@ function create_UIBox_notify_alert(_achievement, _type)
             }
         
             if type(ach) ~= "string" then return out end
-        
+
+        	--missingno
             if ach == "j_qualatro_missingno" or ach == "j_qualatro_MissingNo" or string.find(string.lower(ach), "missingno") then
                 if G.ASSET_ATLAS["qualatro_M"] then
                     out.atlas = G.ASSET_ATLAS["qualatro_M"]
@@ -963,6 +964,16 @@ function create_UIBox_notify_alert(_achievement, _type)
                 return out
             end
 
+			--etika
+            if ach == "j_qualatro_etika_reveal" or string.find(string.lower(ach), "etika_reveal") then
+                if G.ASSET_ATLAS["qualatro_QualatroEtika"] then
+                    out.atlas = G.ASSET_ATLAS["qualatro_QualatroEtika"]
+                end
+                out.shader = "qualatro_QualatroEtika"
+                return out
+            end
+
+			--other qualatro jokers
             if string.find(ach, "^j_qualatro_") and G.ASSET_ATLAS["qualatro_QualatroJokers"] then
                 out.atlas = G.ASSET_ATLAS["qualatro_QualatroJokers"]
                 return out
