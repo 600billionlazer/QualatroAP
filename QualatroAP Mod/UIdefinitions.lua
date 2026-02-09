@@ -984,7 +984,7 @@ function create_UIBox_notify_alert(_achievement, _type)
 
 
         local _c, _atlas = G.P_CENTERS[_achievement],
-            _type == 'Stake' and G.ASSET_ATLAS["chips"] or tableContains({"Joker", "Voucher", "Booster"}, _type) and
+            _type == 'Stake' and G.ASSET_ATLAS["chips"] or tableContains({"Joker", "Voucher"}, _type) and
                 G.ASSET_ATLAS[_type] or
                 tableContains({"Back", "BackStake"}, _type) and G.ASSET_ATLAS["centers"] or _type == "location" and
                 G.ASSET_ATLAS["rand_ap_logo"] or G.ASSET_ATLAS["icons"]
@@ -1003,6 +1003,10 @@ function create_UIBox_notify_alert(_achievement, _type)
 
 		if tableContains({"Tarot"}, _type) then
 			_atlas = G.ASSET_ATLAS["qualatro_QualatroTarot"]
+		end
+
+		if tableContains({"Booster"}, _type) then
+			_atlas = G.ASSET_ATLAS["Booster"]
 		end
 
         if tableContains({'c_rand_ap_tarot','c_rand_ap_planet','c_rand_ap_spectral'}, _achievement) then
