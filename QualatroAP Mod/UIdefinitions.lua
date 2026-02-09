@@ -1006,7 +1006,11 @@ function create_UIBox_notify_alert(_achievement, _type)
 		end
 
 		if tableContains({"Booster"}, _type) then
-			_atlas = G.ASSET_ATLAS["Booster"]
+            if string.find(_achievement, "^p_arcana_") and G.ASSET_ATLAS["qualatro_QualatroBooster"] then
+                _atlas = G.ASSET_ATLAS["qualatro_QualatroBooster"]
+			else
+				_atlas = G.ASSET_ATLAS["Booster"] 
+			end
 		end
 
         if tableContains({'c_rand_ap_tarot','c_rand_ap_planet','c_rand_ap_spectral'}, _achievement) then
