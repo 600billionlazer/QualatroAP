@@ -1,4 +1,4 @@
-# Balatro AP Mod
+# Qualatro AP Mod
 
 This is a Mod for [Balatro](https://store.steampowered.com/app/2379780/Balatro/) that provides Integration for [Archipelago Multi World](https://archipelago.gg) as well as the mod [Qualatro](https://github.com/SiIvaGunner/qualatro/).
 
