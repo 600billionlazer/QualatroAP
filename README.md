@@ -20,7 +20,7 @@ There are a few more options, just check out the yaml that is bundled with the n
 
 Here's a [video tutorial](https://youtu.be/XnEvgEOswpk) I made sometime if any step of the installation is unclear.
 
-This mod is only tested on Steamodded version [1.0.0-beta-1016](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1016c)c; use other versions at your own risk. You will have to install [Lovely](https://github.com/ethangreen-dev/lovely-injector/releases/) as described in the Steamodded installation guide and then install the Steamodded Alpha itself. 
+This mod is only tested on Steamodded version [1.0.0-beta-1016c](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1016c); use other versions at your own risk. You will have to install [Lovely](https://github.com/ethangreen-dev/lovely-injector/releases/) as described in the Steamodded installation guide and then install the Steamodded Alpha itself. 
 
 After installing those, you will also have to download `lua51.7z` from [lua apclient](https://github.com/black-sliver/lua-apclientpp/releases). 
 
