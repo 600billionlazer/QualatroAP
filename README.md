@@ -20,7 +20,7 @@ There are a few more options, just check out the yaml that is bundled with the n
 
 Here's a [video tutorial](https://youtu.be/XnEvgEOswpk) I made sometime if any step of the installation is unclear.
 
-Needs [Steamodded (Alpha)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-the-alpha) which is the 1.0 version there. **MAKE SURE TO DOWNLOAD THE ALPHA**. You will have to install [Lovely](https://github.com/ethangreen-dev/lovely-injector/releases/) as described in the Steamodded installation guide and then install the Steamodded Alpha itself. 
+This mod is only tested on Steamodded version [1.0.0-beta-1016](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1016c)c; use other versions at your own risk. You will have to install [Lovely](https://github.com/ethangreen-dev/lovely-injector/releases/) as described in the Steamodded installation guide and then install the Steamodded Alpha itself. 
 
 After installing those, you will also have to download `lua51.7z` from [lua apclient](https://github.com/black-sliver/lua-apclientpp/releases). 
 
@@ -43,6 +43,7 @@ And the inside of the QualatroAP folder should look something like this:
 
 Additionally, you should also have the latest version of Qualatro installed alongside this mod, linked [here](https://github.com/SiIvaGunner/qualatro/releases/).
 
+Also, **DO NOT** use this mod with BalatroAP, even disabled. It will refuse to work.
 
 You should be good to go then! You can start the game normally over Steam and it should load the mod. If there are any issues message me on Discord @pixelsword_. I should be in most of the Archipelago related Discord servers, anyway. 
 
