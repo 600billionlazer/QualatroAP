@@ -53,6 +53,7 @@ In Qualatro you can simply connect by selecting the profile "Archipelago" in the
 If you have a save file from a different AP session (so an entirely different multiworld) you **have to** delete the old save. 
 It is adviced that you backup your existing save files, even though they should not be modified or deleted by this mod. 
 
-# AI Discosure
+# AI Disclosure
 
-AI assistance was partially used to format the list of Jokers and nothing else. If this makes you uncomfortable, please do not use this mod.
+AI assistance was used in the creation of this mod for the sake of formatting and nothing else.
+This mod is not vibe-coded and does not feature generative AI code or assets of any kind.
